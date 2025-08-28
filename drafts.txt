@@ -1,0 +1,417 @@
+ <!-- ILOILO CITY CARD -->
+<div class="container my-5">
+  <div class="row justify-content-center">
+    <div class="col-lg-10">
+      <div class="card shadow-lg job-card">
+        <div class="row g-0">
+          <!-- Sidebar -->
+          <div class="col-md-4 text-white p-3">
+            <h5 class="mb-3" style="color:rgb(0,15,72);">Iloilo City</h5>
+            <button class="sidebar-button active" onclick="showJob('maintenance', event)">Janitor/Janitress</button>
+            <button class="sidebar-button" onclick="showJob('dob_coordinator', event)">Delivery of Behalf Coordinator</button>
+            <button class="sidebar-button" onclick="showJob('dob_assistant', event)">Delivery of Behalf Assistant</button>
+            <button class="sidebar-button" onclick="showJob('bookkeeper', event)">Bookkeeper</button>
+          </div>
+
+          <!-- Job Details -->
+          <div class="col-md-8 p-4">
+          <div id="maintenance" class="job-description active">
+          <h3>Janitor/Janitress</h3>
+          <h5>Qualifications:</h5>
+          <ul class="custom-list">
+            <li>At least High School Graduate or College Level</li>
+            <li>With or without experience in janitorial or housekeeping work</li>
+            <li>Willing to be trained</li>
+            <li>Knowledgeable or willing to learn proper handling of cleaning tools and chemicals</li>
+            <li>Physically fit to perform cleaning tasks</li>
+          </ul>
+          <button class="btn custom-buttons" onclick="window.location.href='application-form.html'">APPLY NOW</button>
+          </div>
+        </div>
+
+            <div class="col-md-8 p-4">
+            <div id="dob_coordinator" class="job-description">
+              <h3>Delivery of Behalf Coordinator</h3>
+              <h5>Qualifications:</h5>
+              <ul class="custom-list">
+                <li>Bachelor's Degree in Supply Chain, Logistics, Business Administration, or related field</li>
+                <li>With experience in warehouse, inventory, or logistics coordination</li>
+                <li>Strong knowledge of supply chain processes and inventory management systems</li>
+                <li>Proficient in MS Excel and inventory software systems</li>
+                <li>Excellent communication, coordination, and stakeholder management skills</li>
+                <li>Analytical mindset with strong attention to detail</li>
+              </ul>
+              <button class="btn custom-buttons" onclick="window.location.href='application-form.html'">APPLY NOW</button>
+            </div>
+
+            <div id="dob_assistant" class="job-description">
+              <h3>Delivery of Behalf Assistant</h3>
+              <h5>Qualifications:</h5>
+              <ul>
+                <li>College Graduate, preferably with experience in Logistics, Business Administration or related fields</li>
+                <li>With experience in warehouse, inventory, or logistics coordination</li>
+                <li>Strong knowledge of supply chain processes and inventory management systems</li>
+                <li>Proficient in MS Excel and inventory software systems</li>
+                <li>Excellent communication, coordination, and stakeholder management skills</li>
+                <li>Analytical mindset with strong attention to detail</li>
+              </ul>
+              <button class="btn custom-buttons" onclick="window.location.href='application-form.html'">APPLY NOW</button>
+            </div>
+
+            <div id="bookkeeper" class="job-description">
+              <h3>Bookkeeper</h3>
+              <h5>Qualifications:</h5>
+              <ul>
+                <li>Bachelor of Science in Accountancy graduate</li>
+                <li>Preferably with experience as bookkeeper or accounting role</li>
+                <li>Knowledge of basic accounting principles</li>
+                <li>Proficiency in accounting software</li>
+                <li>Good organizational and time management skills</li>
+                <li>Ability to handle confidential information with integrity</li>
+              </ul>
+              <button class="btn custom-buttons" onclick="window.location.href='application-form.html'">APPLY NOW</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- BACOLOD CITY CARD -->
+<div class="container my-5">
+  <div class="row justify-content-center">
+    <div class="col-lg-10">
+      <div class="card shadow-lg job-card">
+        <div class="row g-0">
+          <!-- Sidebar -->
+          <div class="col-md-4 text-white p-3">
+            <h5 class="mb-3" style="color:rgb(0,15,72);">Bacolod City</h5>
+            <button class="sidebar-button active" onclick="showJob('maintenance2', event)">Janitor/Janitress</button>
+            <button class="sidebar-button" onclick="showJob('sales', event)">Sales Officer (Male)</button>
+            <button class="sidebar-button" onclick="showJob('bagger', event)">Seasonal Bagger</button>
+          </div>
+
+          <!-- Job Details -->
+          <div class="col-md-8 p-4">
+            <div id="maintenance2" class="job-description active">
+              <h3>Janitor/Janitress</h3>
+              <h5>Qualifications:</h5>
+              <ul>
+                <li>At least High School Graduate or College Level</li>
+                <li>With or without experience in janitorial or housekeeping work</li>
+                <li>Willing to be trained</li>
+                <li>Knowledgeable or willing to learn proper handling of cleaning tools and chemicals</li>
+                <li>Physically fit to perform cleaning tasks</li>
+              </ul>
+              <button class="btn custom-buttons" onclick="window.location.href='application-form.html'">APPLY NOW</button>
+            </div>
+
+            <div id="sales" class="job-description">
+              <h3>Sales Officer (Male)</h3>
+              <h5>Qualifications:</h5>
+              <ul>
+                <li>Graduate of any 4-year business-related course</li>
+                <li>Preferably with at least 1 year of experience in sales, marketing or customer service</li>
+                <li>Fresh graduates are welcome (especially with strong communication skills)</li>
+                <li>Excellent communication and interpersonal skills</li>
+                <li>Strong negotiation and persuasion abilities</li>
+                <li>Can work independently or with minimal supervision</li>
+              </ul>
+              <button class="btn custom-buttons" onclick="window.location.href='application-form.html'">APPLY NOW</button>
+            </div>
+
+            <div id="bagger" class="job-description">
+              <h3>Seasonal Bagger</h3>
+              <h5>Qualifications:</h5>
+              <ul>
+                <li>At least High School Graduate</li>
+                <li>No experience required</li>
+                <li>Experience in retail, grocery, or customer service is a plus</li>
+                <li>Ability to handle items with care and speed</li>
+                <li>Willing to stand for long periods</li>
+                <li>Physically fit to carry light to moderately heavy grocery items</li>
+              </ul>
+              <button class="btn custom-buttons" onclick="window.location.href='application-form.html'">APPLY NOW</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- BORACAY CARD -->
+<div class="container my-5">
+  <div class="row justify-content-center">
+    <div class="col-lg-10">
+      <div class="card shadow-lg job-card">
+        <div class="row g-0">
+          <!-- Sidebar -->
+          <div class="col-md-4 text-white p-3">
+            <h5 class="mb-3" style="color:rgb(0,15,72);">Boracay</h5>
+            <button class="sidebar-button active" onclick="showJob('commis', event)">Commis Pastry</button>
+            <button class="sidebar-button" onclick="showJob('linen', event)">Linen Attendant</button>
+            <button class="sidebar-button" onclick="showJob('driver', event)">Concierge Driver</button>
+            <button class="sidebar-button" onclick="showJob('plumber', event)">Plumber</button>
+            <button class="sidebar-button" onclick="showJob('carpenter', event)">Carpenter</button>
+          </div>
+
+          <!-- Job Details -->
+          <div class="col-md-8 p-4">
+            <div id="commis" class="job-description active">
+              <h3>Commis Pastry</h3>
+              <h5>Qualifications:</h5>
+              <ul>
+                <li>Minimum of one year of experience in a pastry department</li>
+                <li>Proficiency in various baking and pastry techniques, including cake decorating and bread making</li>
+                <li>Exceptional attention to detail and presentation skills</li>
+                <li>Ability to work efficiently and remain composed under pressure, especially during peak seasons</li>
+                <li>Strong teamwork and communication skills; able to collaborate effectively within a team environment</li>
+              </ul>
+              <button class="btn custom-buttons" onclick="window.location.href='application-form.html'">APPLY NOW</button>
+            </div>
+
+            <div id="linen" class="job-description">
+              <h3>Linen Attendant</h3>
+              <h5>Qualifications:</h5>
+              <ul>
+                <li>Previous experience in laundry setting (preferred)</li>
+                <li>Ability to lift and carry heavy loads</li>
+                <li>Capable of working independently and collaboratively as part of a team</li>
+                <li>Ability to follow instructions and maintain a high level of accuracy</li>
+                <li>Strong attention to detail and organizational skills</li>
+                <li>Ability to keep the work area clean and well-organized</li>
+              </ul>
+              <button class="btn custom-buttons" onclick="window.location.href='application-form.html'">APPLY NOW</button>
+            </div>
+
+            <div id="driver" class="job-description">
+              <h3>Concierge Driver</h3>
+              <h5>Qualifications:</h5>
+              <ul>
+                <li>The candidate must possess a valid driver's license and maintain a clean driving record, with no major violations or accidents in the past 3 to 5 years</li>
+                <li>They mus have excellent verbal and written communication skills, with the ability to interact professionally with clients and effectively handle complaints</li>
+                <li>A minimum of 1 to 5 years of professional driving experience is required, preferably in airport transfers or luxury transportation</li>
+              </ul>
+              <button class="btn custom-buttons" onclick="window.location.href='application-form.html'">APPLY NOW</button>
+            </div>
+            <div id="plumber" class="job-description">
+              <h3>Plumber</h3>
+              <h5>Qualifications:</h5>
+              <ul>
+                <li>Minimum of 1 year of experience as a plumber</li>
+                <li>Proficiency in all aspects of plumbing, including drain cleaning, pipefitting, fixture installation, and repair </li>
+                <li>Ability to read and interpret blueprints schematics</li>
+                <li>Knowledge of plumbing codes and regulations</li>
+                <li>Experience with various plumbing tools and equipment</li>
+                <li>Strong problem-solving and troubleshooting skills</li>
+              </ul>
+              <button class="btn custom-buttons" onclick="window.location.href='application-form.html'">APPLY NOW</button>
+            </div>
+            <div id="carpenter" class="job-description">
+              <h3>Carpenter</h3>
+              <h5>Qualifications:</h5>
+              <ul>
+                <li>Minimum of 1 year experience as a carpenter</li>
+                <li>Proficiency in various carpentry techniques, including framing, finishing, and installation</li>
+                <li>Ability to  read and interpret blueprints and schematics</li>
+                <li>Knowledge of building codes and regulations</li>
+                <li>Experience with a wide range of carpentry tools and equipment</li>
+                <li>Strong problem-solving and troubleshooting skills</li>
+              </ul>
+              <button class="btn custom-buttons" onclick="window.location.href='application-form.html'">APPLY NOW</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- CEBU CITY CARD -->
+<div class="container my-5">
+  <div class="row justify-content-center">
+    <div class="col-lg-10">
+      <div class="card shadow-lg job-card">
+        <div class="row g-0">
+          <!-- Sidebar -->
+          <div class="col-md-4 text-white p-3">
+            <h5 class="mb-3" style="color:rgb(0,15,72);">Cebu City</h5>
+            <button class="sidebar-button active" onclick="showJob('plumber2', event)">Plumber - NC II</button>
+            <button class="sidebar-button" onclick="showJob('aircon', event)">Aircon Technician - NC II</button>
+            <button class="sidebar-button" onclick="showJob('overall', event)">Overall Supervisor</button>
+            <button class="sidebar-button" onclick="showJob('room', event)">Room Attendant</button>
+            <button class="sidebar-button" onclick="showJob('public', event)">Public Attendant</button>
+            <button class="sidebar-button" onclick="showJob('house', event)">Housekeeping</button>
+          </div>
+
+          <!-- Job Details -->
+          <div class="col-md-8 p-4">
+            <div id="plumber2" class="job-description active">
+              <h3>Plumber - NC II</h3>
+              <h5>Qualifications:</h5>
+              <ul>
+                <li>At least High School Graduate or TESDA NC II holder in Plumbing or related course</li>
+                <li>Experience in both residential and commercial plumbing is a plus</li>
+                <li>Can work independently with minimal supervision</li>
+              </ul>
+              <button class="btn custom-buttons" onclick="window.location.href='application-form.html'">APPLY NOW</button>
+            </div>
+
+            <div id="aircon" class="job-description">
+              <h3>Aircon Technician - NC II</h3>
+              <h5>Qualifications:</h5>
+              <ul>
+                <li>Vocational or TESDA graduate in Refrigeration and Air Conditioning (RAC) or a related course</li>
+                <li>NC II Certificate in RAC Servicing is a strong advantage</li>
+                <li>With atleast 1 year of experience in air conditioning installation, repair and maintenance</li>
+                <li>Experience with split-type, window-type, and inverter units preferred</li>
+                <li>Knowledge in electrical wiring, refrigerant charging, and troubleshooting</li>
+                <li>Can work independently or as part of a team</li>
+              </ul>
+              <button class="btn custom-buttons" onclick="window.location.href='application-form.html'">APPLY NOW</button>
+            </div>
+
+            <div id="overall" class="job-description">
+              <h3>Overall Supervisor</h3>
+              <h5>Qualifications:</h5>
+              <ul>
+                <li>Must be a graduate of Electrical or Mechanical Engineering</li>
+                <li>With strong leadership skills and the ability to manage and supervise multiple teams or projects</li>
+                <li>Willing to be assigned in Cebu or nearby project sites</li>
+              </ul>
+              <button class="btn custom-buttons" onclick="window.location.href='application-form.html'">APPLY NOW</button>
+            </div>
+            <div id="room" class="job-description">
+              <h3>Room Attendant</h3>
+              <h5>Qualifications:</h5>
+              <ul>
+                <li>Male or Female</li>
+                <li>Fresh graduates are welcome to apply</li>
+                <li>Must have an Associate's or Bachelor's degree in Hotel and Restaurant Management or related field</li>
+                <li>Related work experience is not required but will be considered an advantage</li>
+              </ul>
+              <button class="btn custom-buttons" onclick="window.location.href='application-form.html'">APPLY NOW</button>
+            </div>
+            <div id="public" class="job-description">
+              <h3>Public Attendant</h3>
+              <h5>Qualifications:</h5>
+              <ul>
+                <li>Male or Female</li>
+                <li>Fresh graduates are welcome to apply</li>
+                <li>Must have an Associate's or Bachelor's Degree in Hotel and Restaurant Management or related field</li>
+              </ul>
+              <button class="btn custom-buttons" onclick="window.location.href='application-form.html'">APPLY NOW</button>
+            </div>
+            <div id="house" class="job-description">
+              <h3>Housekeeping</h3>
+              <h5>Qualifications:</h5>
+              <ul>
+                <li>At least High School Graduate</li>
+                <li>Vocational or TESDA certificate in Housekeeping NC II is an advantage</li>
+                <li>With or without housekeeping experience</li>
+                <li>Preferred if experienced in hotel, resort, or commercial cleaning</li>
+                <li>Knowledge of cleaning techniques, tools, and chemicals</li>
+                <li>Can make beds, clean restrooms, mop floors, and maintain room cleanliness</li>
+                <li>Maintains professionalism and courtesy with guests</li>
+                <li>Physically fit and able to stand or move for extended periods</li>
+                <li>Can work with minimal supervision</li>
+              </ul>
+              <button class="btn custom-buttons" onclick="window.location.href='application-form.html'">APPLY NOW</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+/* Jobs Styling */
+.card-custom {
+    border-radius: 30px;
+    min-height: 280px;
+    transition: box-shadow 0.3s ease-in-out;
+}
+    
+.card-custom:hover {
+    box-shadow: 0 0.5rem 1rem rgba(0,0,0,0.15);
+}
+
+.icon-wrapper {
+    width: 48px;
+    height: 48px;
+    position: absolute;
+    top: 1rem;
+    left: 1rem;
+}
+
+.action-icon {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    position: absolute;
+    bottom: 1rem;
+    left: 1rem;
+    background-color: #dee2e6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.3s ease-in-out;
+}
+    
+.action-icon:hover {
+    box-shadow: 0 0 0 4px rgba(108, 117, 125, 0.3);
+}
+
+body {
+    background-color: #f8f9fb;
+}
+
+.job-card {
+    border-radius: 20px;
+    background-color: white;
+    padding: 30px;
+    transition: box-shadow 0.3s ease;
+    height: 100%;
+}
+
+.job-card:hover {
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+}
+
+.job-btn {
+    background-color:  rgb(6,14,70);
+    border-radius: 9999px;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 50px;
+    transition: transform 0.3s ease, background-color 0.3s ease;
+}
+
+.job-btn:hover {
+    background-color:  rgb(6,14,70);
+    border-radius: 9999px;
+    transform: scale(1.05);
+}
+
+
+  function showJob(jobId, event) {
+    const card = event.target.closest('.job-card');
+
+    // Hide all descriptions inside the clicked card
+    const descriptions = card.querySelectorAll('.job-description');
+    descriptions.forEach(desc => desc.classList.remove('active'));
+
+    // Show selected description
+    card.querySelector(`#${jobId}`).classList.add('active');
+
+    // Reset all sidebar buttons inside the clicked card
+    const buttons = card.querySelectorAll('.sidebar-button');
+    buttons.forEach(btn => btn.classList.remove('active'));
+
+    // Activate the clicked button
+    event.target.classList.add('active');
+  }

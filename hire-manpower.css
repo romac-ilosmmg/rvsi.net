@@ -1,0 +1,100 @@
+/* Navigation Bar Customization */
+.navbar-brand img 
+{
+    max-height: 60px;
+}
+
+.nav-link 
+{
+    transition: transform 0.2s ease;
+    color: white;
+    margin-left: 10px;
+}
+
+/* Navigation Bar Animation */
+.nav-link:hover 
+{
+    transform: scale(1.2);
+    color: white;
+}
+
+.custom-navbar
+{
+    background-color: rgb(0,15,72);
+}
+
+
+
+/* Container Section */
+.header-image-section {
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    max-height: 70vh;
+}
+
+/* Default Image Styling (for desktop) */
+.header-image-section img {
+    width: 100%;
+    height: auto;
+    max-height: 95vh;
+    object-fit: cover;
+    object-position: center;
+    display: block;
+}
+
+/* Responsive Styling for Mobile and Tablets */
+@media (max-width: 768px) {
+    .header-image-section {
+        max-height: none;
+    }
+
+    .header-image-section img {
+        height: auto;
+        max-height: 300px;
+        object-position: center top;
+    }
+}
+
+/* Footer */
+.footer-custom 
+{
+    background: linear-gradient(to right, rgb(0,15,72),rgb(0,15,72)); 
+    color: #fff;
+}
+
+.footer-custom a 
+{
+    color: #fff;
+    text-decoration: none;
+}
+
+.footer-custom a:hover 
+{
+    text-decoration: underline;
+}
+
+.custom-btn
+{
+    background-color: rgb(0,15,72);
+    color: white;
+}
+
+.custom-btn:hover
+{
+    background-color: rgb(0,15,72);
+    color: red;
+}
+
+.form-step {
+    display: none;
+  }
+  .form-step.active {
+    display: block;
+  }
+
+  @media (max-width: 768px) {
+  .navbar-toggler-icon {
+    filter: brightness(0) invert(1);
+  }
+}

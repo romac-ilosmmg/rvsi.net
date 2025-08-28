@@ -1,0 +1,114 @@
+/*Navigation Bar Customization*/
+.navbar-brand img {
+  max-height: 60px;
+}
+
+.nav-link {
+  transition: transform 0.2s ease;
+  color: white;
+  margin-left: 10px;
+}
+
+.nav-link:hover {
+  transform: scale(1.2); /* Or 1.5 if space allows */
+  color: white;
+}
+
+.custom-navbar
+{
+    background-color: rgb(6,14,70);
+}
+
+/* Dropdown
+/* Show dropdown on hover */
+.nav-item.dropdown:hover .dropdown-menu {
+  display: block;
+  margin-top: 0; /* Optional: adjust spacing if needed */
+}
+
+/* Optional: smooth hover */
+.nav-item.dropdown .dropdown-toggle::after {
+  transition: transform 0.2s;
+}
+.nav-item.dropdown:hover .dropdown-toggle::after {
+  transform: rotate(180deg);
+}
+
+/*Responsive Carousel Image*/
+@media (max-width: 768px) {
+  #heroCarousel img {
+    height: 250px;
+  }
+}
+
+.header-image-section {
+    position: relative;
+    overflow: hidden;
+}
+
+.header-image-section img {
+    width: 100%;
+    max-height: 800px;
+    object-fit: cover;
+    object-position: top;
+}
+
+
+ .card img {
+    border: 3px solid #dee2e6;
+  }
+
+   .footer-custom 
+{
+  background: linear-gradient(to right, rgb(6,14,70), rgb(6,14,70)); 
+  color: #fff;
+}
+
+.footer-custom a 
+{
+  color: #fff;
+  text-decoration: none;
+}
+
+.footer-custom a:hover 
+{
+  text-decoration: underline;
+}
+
+.profile-card {
+    border-radius: 15px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    padding: 30px 20px;
+    background-color: #ffffff;
+    transition: transform 0.3s;
+}
+
+.profile-card:hover {
+    transform: translateY(-5px);
+}
+
+.profile-img {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 3px solid lightgray;
+    margin-bottom: 15px;
+}
+
+.name {
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+
+.position {
+    color: #6c757d;
+    font-size: 0.95rem;
+}
+
+@media (max-width: 768px) {
+  .navbar-toggler-icon {
+    filter: brightness(0) invert(1);
+  }
+}

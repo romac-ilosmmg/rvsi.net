@@ -1,0 +1,359 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Romac Visayas Services Inc. | Application Form</title>
+    <meta name="description" content="Just fill up a form and choose a career what you find for">
+    <!--Bootstrap Integration-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!--Bootstrap Icons-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <!--External Styling Link-->
+    <link rel="stylesheet" href="application-form.css">
+</head>
+<body>
+    <!--Navigation Bar-->
+    <nav class="navbar navbar-expand-lg custom-navbar">
+    <div class="container">
+    
+    <!--Navigation Bar Logo-->
+    <a class="navbar-brand" href="index.html">
+      <img src="Assets/RomacLogo2.png" alt="Logo" width="195" height="auto">
+    </a>
+
+    <!--Navigation Toggler for Mobile-->
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNavbar">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <!--Navigation Bar Links-->
+    <div class="collapse navbar-collapse justify-content-end" id="mainNavbar">
+    <ul class="navbar-nav">
+     <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+     <li class="nav-item"><a class="nav-link" href="about.html">About Us</a></li>
+     <li class="nav-item"><a class="nav-link" href="hire-manpower.html">Hire Manpower</a></li>
+     <li class="nav-item"><a class="nav-link" href="job-vacancies.html">Job Vacancies</a></li>
+     <li class="nav-item"><a class="nav-link" href="services.html">Services</a></li>
+     <li class="nav-item"><a class="nav-link" href="management.html">Management</a></li>
+     <li class="nav-item"><a class="nav-link" href="news.html">News</a></li>
+     <li class="nav-item dropdown">
+    <a class="nav-link dropdown-toggle" href="" id="contactDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+      Contact Us
+    </a>
+      <ul class="dropdown-menu" aria-labelledby="contactDropdown">
+        <li><a class="dropdown-item" href="contacts.html">Contact Forms</a></li>
+        <li><a class="dropdown-item" href="branches.html">Branches</a></li>
+        </ul>
+        </li>
+       </ul>
+    </div>
+    </div>
+    </nav>
+
+    <!--Header Image Section-->
+    <section id="jobsImage" class="header-image-section">
+    <img src="Assets/Careers3.jpg" alt="Header Image" class="img-fluid w-100">
+    </section>
+
+     <div class="container my-5">
+    <div class="card shadow">
+      <div class="card-header bg-primary text-white text-center">
+        <h4 class="mb-0">Application Form</h4>
+      </div>
+      <div class="card-body">
+        <form id="myForm">
+
+          <!-- Message Box -->
+          <div id="formMessage" class="mb-3"></div>
+
+          <!-- Personal Details -->
+          <h5>Personal Details</h5>
+          <div class="row mb-3">
+            <div class="col-md-4">
+              <label>Last Name</label>
+              <input type="text" class="form-control" name="lastName" required autocomplete="name">
+            </div>
+            <div class="col-md-4">
+              <label>First Name</label>
+              <input type="text" class="form-control" name="firstName" required autocomplete="name">
+            </div>
+            <div class="col-md-4">
+              <label>Middle Name</label>
+              <input type="text" class="form-control" name="middleName" required autocomplete="name">
+            </div>
+          </div>
+
+          <div class="row mb-3">
+            <div class="col-md-6">
+              <label>Birthdate</label>
+              <input type="date" class="form-control" name="birthDate" required>
+            </div>
+            <div class="col-md-6">
+              <label>Gender</label>
+              <select class="form-select" name="gender" required>
+                <option value="" disabled selected>Please choose...</option>
+                <option>Male</option>
+                <option>Female</option>
+              </select>
+            </div>
+          </div>
+
+          <!-- Contact Information -->
+          <h5>Contact Information</h5>
+          <div class="mb-3">
+            <label>Address</label>
+            <input type="text" class="form-control" name="address" required autocomplete="street-address">
+          </div>
+
+          <div class="row mb-3">
+            <div class="col-md-6">
+              <label>Municipality</label>
+              <select class="form-select" name="municipality" required>
+                <option disabled selected>Please choose...</option>
+                <option>Ajuy IloIlo</option><option>Alimodian IloIlo</option><option>Anilao IloIlo</option><option>Badiangan IloIlo</option><option>Balasan IloIlo</option>
+                <option>Banate IloIlo</option><option>Barotac Nuevo IloIlo</option><option>Barotac Viejo IloIlo</option><option>Batad IloIlo</option><option>Bingawan IloIlo</option>
+                <option>Cabatuan IloIlo</option><option>Calinog IloIlo</option><option>Carles IloIlo</option><option>Concepcion IloIlo</option><option>Dingle IloIlo</option>
+                <option>Dueñas IloIlo</option><option>Dumangas IloIlo</option><option>Estancia IloIlo</option><option>Guimbal IloIlo</option><option>Igbaras IloIlo</option>
+                <option>IloIlo City</option><option>Janiuay IloIlo</option><option>Lambunao IloIlo</option><option>Leganes IloIlo</option><option>Lemery IloIlo</option>
+                <option>Leon IloIlo</option><option>Maasin IloIlo</option><option>Miagao IloIlo</option><option>Mina IloIlo</option><option>New Lucena IloIlo</option>
+                <option>Oton IloIlo</option><option>Passi City IloIlo</option><option>Pavia IloIlo</option><option>Pototan IloIlo</option><option>San Dionisio IloIlo</option>
+                <option>San Enrique IloIlo</option><option>San Joaquin IloIlo</option><option>San Miguel IloIlo</option><option>San Rafael IloIlo</option><option>Santa Barbara IloIlo</option>
+                <option>Sara IloIlo</option><option>Tigbauan IloIlo</option><option>Tubungan IloIlo</option><option>Zarraga IloIlo</option>
+
+                <option>Binalbagan Negros Occidental Bacolod</option><option>Calatrava Negros Occidental Bacolod</option><option>Candoni Negros Occidental Bacolod</option>
+                <option>Cauayan Negros Occidental Bacolod</option><option>Don Salvador Benedicto Negros Occidental Bacolod</option><option>EB. Magalona Negros Occidental Bacolod</option>
+                <option>Hinoba-an Negros Occidental Bacolod</option><option>Hinigaran Negros Occidental Bacolod</option><option>Ilog Negros Occidental Bacolod</option>
+                <option>Isabela Negros Occidental Bacolod</option><option>La Castellana Negros Occidental Bacolod</option><option>Manapla Negros Occidental Bacolod</option>
+                <option>Moises Padilla Negros Occidental Bacolod</option><option>Murcia Negros Occidental Bacolod</option><option>Pontevedra Negros Occidental Bacolod</option>
+                <option>Pulupandan Negros Occidental Bacolod</option><option>San Enrique Negros Occidental Bacolod</option><option>Toboso Negros Occidental Bacolod</option>
+                <option>Valladolid Negros Occidental Bacolod</option>
+                
+                 
+                <option>Altavas Aklan</option><option>Balete Aklan</option><option>Banga Aklan</option><option>Batan Aklan</option>
+                <option>Buruanga Aklan</option><option>Ibajay Aklan</option><option>Kalibo Aklan</option><option>Lezo Aklan</option>
+                <option>Libacao Aklan</option><option>Madalag Aklan</option><option>Makato Aklan</option><option>Malay Aklan</option>
+                <option>Malinao Aklan</option><option>Nabas Aklan</option><option>New Washington Aklan</option><option>Numancia Aklan</option>
+                <option>Tangalan Aklan</option><option>Madalag Aklan</option>
+                
+                <option>Lapu-Lapu City Cebu</option><option>Mandaue City Cebu</option>
+                <option>Bogo City Cebu</option><option>Carcar City Cebu</option><option>Danao City Cebu</option><option>Naga City Cebu</option>
+                <option>Talisay City Cebu</option><option>Toledo City Cebu</option><option>Toledo City Cebu</option><option>Alcantara Cebu</option>
+                <option>Alcoy Cebu</option><option>Alegria Cebu</option><option>Aloguinsan Cebu</option><option>Argao Cebu</option>
+                <option>Asturias Cebu</option><option>Badian Cebu</option><option>Balamban Cebu</option><option>Bantayan Cebu </option>
+                <option>Barili Cebu</option><option>Boljoon Cebu</option><option>Borbon Cebu</option><option>Carmen Cebu</option>
+                <option>Catmon Cebu</option><option>Compostela Cebu</option><option>Consolacion Cebu</option><option>Cordova Cebu</option>
+                <option>Daanbantayan Cebu</option><option>Dalaguete Cebu</option><option>Dumanjug Cebu</option><option>Ginatilan Cebu</option>
+                <option>Madridejos Cebu</option><option>Malabuyoc Cebu</option><option>Medellin Cebu</option><option>Minglanilla Cebu</option>
+                <option>Moalboal Cebu</option><option>Oslob Cebu</option><option>Pilar Cebu</option><option>Pinamungajan Cebu</option>
+                <option>Poro Cebu</option><option>Ronda Cebu</option><option>Samboan Cebu</option><option>San Fernando Cebu</option>
+                <option>San Francisco Cebu</option><option>San Remigio Cebu</option><option>Santa Fe Cebu</option><option>Santander Cebu</option>
+                <option>Sibonga Cebu</option><option>Sogod Cebu</option><option>Tabogon Cebu</option><option>Tabuelan Cebu</option>
+                <option>Tuburan Cebu</option><option>Tudela Cebu</option><option>Alegria Cebu</option>
+
+              </select>
+            </div>
+            <div class="col-md-6">
+              <label>Mobile Number</label>
+              <div class="input-group">
+                <span class="input-group-text">+63</span>
+                <input type="text" class="form-control" name="mobileNumber" placeholder="9123456789" pattern="[0-9]{10}" maxlength="10" required autocomplete="tel">
+              </div>
+            </div>
+          </div>
+
+          <div class="mb-3">
+            <label>Email</label>
+            <input type="email" class="form-control" name="email" required autocomplete="email">
+          </div>
+
+          <!-- Educational Background -->
+          <h5>Educational Background</h5>
+          <div class="row mb-3">
+            <div class="col-md-6">
+              <label>Highest Attainment</label>
+              <select class="form-select" name="educationalAttainment">
+                <option disabled selected>Please choose...</option>
+                <option>No Formal Education</option>
+                <option>ALS</option>
+                <option>Elementary Level</option>
+                <option>Elementary Graduate</option>
+                <option>Junior High School Level</option>
+                <option>Junior High School Completers</option>
+                <option>Senior High School Level</option>
+                <option>Senior High School Graduate</option>
+                <option>Vocational Course (eg. NC II, TESDA)</option>
+                <option>Technical Course</option>
+                <option>Associate Degree</option>
+                <option>College Level</option>
+                <option>Bachelor's Degree</option>
+                <option>Master's Degree</option>
+                <option>Doctorate Degree / Ph.D.</option>
+              </select>
+            </div>
+            <div class="col-md-6">
+              <label>School</label>
+              <input type="text" class="form-control" name="school">
+            </div>
+          </div>
+
+          <!-- Work Experience -->
+          <h5>Work Experience</h5>
+          <div class="row mb-3">
+            <div class="col-md-6">
+              <label>Company Name <span style="color:maroon;">(Skip or type N/A if not applicable)</span></label>
+              <input type="text" class="form-control" name="previousCompany">
+            </div>
+            <div class="col-md-6">
+              <label>Position <span style="color:maroon;">(Skip or type N/A if not applicable)</span></label>
+              <input type="text" class="form-control" name="position">
+            </div>
+          </div>
+
+          <div class="row mb-3">
+            <div class="col-md-6">
+              <label>Start Date</label>
+              <input type="date" class="form-control" name="startDate">
+            </div>
+            <div class="col-md-6">
+              <label>End Date</label>
+              <input type="date" class="form-control" name="endDate">
+            </div>
+          </div>
+
+          <!-- Job Preferences -->
+          <h5>Job Preferences</h5>
+          <div class="row mb-3">
+            <div class="col-md-6">
+              <label>Position</label>
+              <select class="form-select" name="applyPosition" required>
+                <option disabled selected>Select position to apply</option>
+                <option>Janitor/Janitress</option><option>Electricians</option><option>Carpenter</option><option>Plumber</option>
+                <option>Foam Mattress Assembler (Male Only)</option><option>Chairmaker Upholsterer (Male Only)</option>
+                <option>Chairmaker Framer (Male Only)</option><option>Chairmaker Webber (Male Only)</option>
+                <option>Chairmaker Cutter (Male Only)</option><option>Sales Officer (Male Only)</option>
+                <option>Canvassers (Male Only)</option><option>Office Staff</option><option>Carwash Staff (Male Only)</option>
+                <option>Seasonal Bagger</option><option>Housekeeping</option><option>Pool Attendant</option><option>Technician</option>
+                <option>Room Attendant</option><option>Front Office</option><option>Driver</option><option>Kitchen Helper</option>
+                <option>Pastry</option><option>Staff House Crew</option><option>Staff House Kantix</option>
+                <option>Elevator Maintenance</option><option>Painter</option><option>Audio Visual Technician (AV)</option>
+                <option>Public Attendant</option><option>Electro Mechanical Technician</option><option>Aircon Technician</option>
+                <option>Building Management System Technician (BMS)</option>
+              </select>
+            </div>
+            <div class="col-md-6">
+              <label>Preferred Work Location</label>
+              <select class="form-select" name="workLocation" required>
+                <option disabled selected>Please choose...</option>
+                <option>Any</option>
+                <option>IloIlo City</option>
+                <option>Bacolod City</option>
+                <option>Boracay</option>
+                <option>Cebu City</option>
+              </select>
+            </div>
+          </div>
+
+          <!-- Resume Upload -->
+          <div class="mb-3">
+            <label class="form-label text-secondary">Attach Resume (PDF Format)</label>
+            <input class="form-control" type="file" name="resume" accept=".pdf,.doc,.docx" required>
+          </div>
+
+          <!-- Submit Button -->
+          <div class="d-grid">
+            <button type="submit" class="btn custom-btn rounded-pill">Submit Application</button>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+
+   <!-- Feedback Modal -->
+<div class="modal fade" id="feedbackModal" tabindex="-1" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered">
+    <div class="modal-content">
+      <div id="modalHeader" class="modal-header bg-primary text-white">
+        <h5 class="modal-title">Status</h5>
+      </div>
+      <div class="modal-body d-flex align-items-center gap-2">
+        <!-- Spinner (hidden by default) -->
+        <div id="modalSpinner" class="spinner-border text-light d-none" role="status" style="width: 1.5rem; height: 1.5rem;">
+          <span class="visually-hidden">Loading...</span>
+        </div>
+        <p id="modalMessage" class="mb-0"></p>
+      </div>
+    </div>
+  </div>
+</div>
+
+    
+
+    <!--Footer-->
+    <footer class="footer-custom pt-5 pb-4">
+    <div class="container">
+    <div class="row">
+      
+    <!-- Image + Copyright + Social Links -->
+    <div class="col-md-4 mb-4 text-center text-md-start">
+    <img src="Assets/RomacLogo2.png" alt="Company Logo" class="img-fluid mb-3">
+    <p class="small mb-1">&copy; 2025 Romac Visayas Inc. All rights reserved.</p>
+
+    <!-- Social Media Links -->
+    <div class="d-flex justify-content-center justify-content-md-start gap-3 mt-2">
+    <a href="https://www.facebook.com/romacvisayasiloilo" target="_blank" class="text-white fs-5">
+     <i class=""></i>
+    </a>
+    <a href="https://www.linkedin.com/YOUR_LINKEDIN_LINK" target="_blank" class="text-white fs-5">
+     <i class=""></i>
+    </a>
+    </div>
+    </div>
+
+    <!-- Office Info Grid -->
+    <div class="col-md-8">
+    <div class="row">
+          
+    <!-- Office 1 -->
+    <div class="col-sm-6 mb-4">
+    <h5 class="fw-bold">IloIlo Office</h5>
+    <p class="mb-1">251-A General Hughes, St. IloIlo City</p>
+    <p class="mb-1">Tel/Fax No: (033) 335-5200</p>
+    <p class="mb-0">Cellphone No: 09190803924</p>
+    </div>
+
+    <!-- Office 2 -->
+    <div class="col-sm-6 mb-4">
+    <h5 class="fw-bold">Bacolod Office</h5>
+    <p class="mb-1">Room 300B Silos Building, San Juan St. Bacolod City</p>
+    <p class="mb-1">Tel/Fax No: (034) 461-7097</p>
+    <p class="mb-0">Cellphone No: 09088983827</p>
+    </div>
+
+    <!-- Office 3 -->
+    <div class="col-sm-6 mb-4">
+    <h5 class="fw-bold">Boracay Office</h5>
+    <p class="mb-1">Unit I & II, Pardico Hill Traders Hagdan, Brgy.Yapak, Malay, Aklan</p>
+    <p class="mb-1">Tel/Fax No: (036) 286-2338</p>
+    <p class="mb-0">Cellphone No: 09190803921</p>
+    </div>
+
+    <!-- Office 4 -->
+    <div class="col-sm-6 mb-4">
+    <h5 class="fw-bold">Cebu Office</h5>
+    <p class="mb-1">3rd Floor Unit A Chua Tiam Bldg. A. Del Rosario St. Brgy.Tipolo, Mandaue City, Cebu</p>
+    <p class="mb-1">Tel/Fax No: (032) 383-8068</p>
+    <p class="mb-0">Cellphone No: 09088983836</p>
+    </div>
+    </div>
+    </div>
+    </div>
+    </div>
+    </footer>
+
+    <!--Javascript Integration-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <!--External Scripting Link-->
+    <script src="application-form.js"></script>
+</body>
+</html>
